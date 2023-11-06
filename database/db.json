@@ -1,0 +1,46 @@
+{
+    "pessoas": [
+        {
+            "id": 1,
+            "nome": "Dennis Bozzi",
+            "paiId": 2,
+            "maeId": 3
+        },
+        {
+            "id": 2,
+            "nome": "Nivaldo",
+            "paiId": 5,
+            "maeId": null
+        },
+        {
+            "id": 3,
+            "nome": "Cleidiane",
+            "paiId": null,
+            "maeId": 4
+        },
+        {
+            "id": 4,
+            "nome": "Penha",
+            "paiId": null,
+            "maeId": null
+        },
+        {
+            "id": 5,
+            "nome": "Feliciano",
+            "paiId": null,
+            "maeId": null
+        },
+        {
+            "id": 6,
+            "nome": "Rafaela",
+            "paiId": null,
+            "maeId": null
+        },
+        {
+            "id": 7,
+            "nome": "Aurora",
+            "paiId": 1,
+            "maeId": 6
+        }
+    ]
+}

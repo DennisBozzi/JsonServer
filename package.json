@@ -4,7 +4,7 @@
   "description": "Learning About Json Server",
   "main": "index.js",
   "scripts": {
-    "backend": "json-server --watch db.json"
+    "backend": "json-server --watch database/db.json"
   },
   "repository": {
     "type": "git",
