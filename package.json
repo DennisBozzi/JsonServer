@@ -1,0 +1,22 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Learning About Json Server",
+  "main": "index.js",
+  "scripts": {
+    "backend": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisBozzi/JsonServer.git"
+  },
+  "author": "Dennis Bozzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennisBozzi/JsonServer/issues"
+  },
+  "homepage": "https://github.com/DennisBozzi/JsonServer#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
