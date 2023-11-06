@@ -2,7 +2,7 @@
     "pessoas": [
         {
             "id": 1,
-            "nome": "Dennis Bozzi",
+            "nome": "Dennis",
             "paiId": 2,
             "maeId": 3
         },

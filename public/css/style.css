@@ -1,0 +1,75 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: monospace;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 32px;
+}
+
+#pessoas {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 980px;
+    margin: auto;
+}
+
+.novaPessoa {
+    border: 1px solid white;
+    border-radius: 16px;
+    min-width: 320px;
+    text-align: center;
+    position: relative;
+    transition: 0.2s;
+}
+
+.novaPessoa:hover {
+    background-color: #FFFFFF10;
+    cursor: pointer;
+}
+
+.botoes {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 32px;
+    border: 1px solid white;
+    color: white;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF25;
+    transition: 0.2s;
+}
+
+.botoes:hover {
+    background-color: #FFFFFF80;
+    cursor: pointer;
+}
+
+.botao1 {
+    top: 24px;
+}
+
+.botao2 {
+    top: 92px;
+}
+
+.id {
+    background-color: #FFFFFF25;
+    border-radius: 50%;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8px;
+    left: 8px;
+}
