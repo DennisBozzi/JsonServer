@@ -56,7 +56,12 @@ body {
 }
 
 .selected {
-    color: black;
+    background-color: coral;
+    border-color: coral;
+}
+
+.selectedPaginacao {
+    color: white;
     background-color: coral;
     border-color: coral;
 }
@@ -70,4 +75,8 @@ body {
 .modal-header {
     border-width: 0px;
     color: black;
+}
+
+.btn-close {
+    border: 2px solid white;
 }

@@ -48,11 +48,18 @@ function paginacao(val) {
 
                     valMax = data.length / 8
 
+
+
                     for (let i = val >= 1 ? val - 1 : val; i < val + 3 && i < valMax; i++) {
 
-                        paginacao.innerHTML += '<button class="btn btn-dark" onclick="paginacao(' + (i) + ')">' + (i + 1) + '</button>'
+
+                        
+
+
+                        paginacao.innerHTML += '<button class="btn btn-dark" id="paginacao' + i + '" onclick="paginacao(' + (i) + ')">' + (i + 1) + '</button>'
 
                     }
+                    document.getElementById('paginacao' + val).classList.add('selectedPaginacao')
                 }
             })
         }
