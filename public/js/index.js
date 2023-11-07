@@ -42,7 +42,7 @@ function paginacao(val) {
                         var paiNome = pai != "" && pai != null ? pai.nome : "";
                         var maeNome = mae != "" && mae != null ? mae.nome : "";
 
-                        divPessoas.innerHTML += '<div class="btn btn-dark novaPessoa" id="pessoa' + id + '" onclick="selecionado(' + id + ')"><div class="id">' + id + '</div><h3 class="nome">Nome: ' + nome + '</h3><h4 class="pai">Pai: ' + paiNome + '</h4><h4 class="mae">Mãe: ' + maeNome + '</h4></div>';
+                        divPessoas.innerHTML += '<div class="btn btn-dark novaPessoa" id="pessoa' + id + '" onclick="selecionado(' + id + ')"><div class="id">' + id + '</div><h3 class="nome">' + nome + '</h3><h4 class="pai">Pai: ' + paiNome + '</h4><h4 class="mae">Mãe: ' + maeNome + '</h4></div>';
 
                     }
 
@@ -59,7 +59,7 @@ function paginacao(val) {
                         paginacao.innerHTML += '<button class="btn btn-dark" id="paginacao' + i + '" onclick="paginacao(' + (i) + ')">' + (i + 1) + '</button>'
 
                     }
-                    document.getElementById('paginacao' + val).classList.add('selectedPaginacao')
+                    document.getElementById('paginacao' + val).classList.add('selected')
                 }
             })
         }
