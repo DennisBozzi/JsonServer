@@ -1,7 +1,7 @@
 body {
     background-color: #333;
     color: white;
-    font-family: monospace;
+    height: 100vh;
 }
 
 .titulo {
@@ -19,7 +19,6 @@ body {
 }
 
 .novaPessoa {
-    border: 1px solid white;
     border-radius: 16px;
     min-width: 320px;
     text-align: center;
@@ -27,38 +26,20 @@ body {
     transition: 0.2s;
 }
 
-.novaPessoa:hover {
-    background-color: #FFFFFF10;
-    cursor: pointer;
-}
-
-.botoes {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    font-size: 32px;
-    border: 1px solid white;
-    color: white;
-    right: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFFFFF25;
-    transition: 0.2s;
-}
-
-.botoes:hover {
-    background-color: #FFFFFF80;
-    cursor: pointer;
-}
-
 .botao1 {
-    top: 24px;
+    position: absolute;
+    right: 24px;
+    top: 48px;
+    width: 120px;
+
 }
 
 .botao2 {
+    position: absolute;
+    right: 24px;
     top: 92px;
+    width: 120px;
+
 }
 
 .id {
@@ -72,4 +53,21 @@ body {
     justify-content: center;
     top: 8px;
     left: 8px;
+}
+
+.selected {
+    color: black;
+    background-color: coral;
+    border-color: coral;
+}
+
+.selected:hover {
+    background-color: rgba(255, 127, 80, 0.836);
+    border-color: rgba(255, 127, 80, 0.836);
+}
+
+.modal-footer,
+.modal-header {
+    border-width: 0px;
+    color: black;
 }
