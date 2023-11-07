@@ -9,4 +9,4 @@
 
 	npm run backend
 
-**Abre o arquivo public/index.html e pronto :)**
+**Abra o arquivo public/index.html e pronto :)**
