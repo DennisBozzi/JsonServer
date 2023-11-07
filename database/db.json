@@ -1,244 +1,250 @@
 {
-    "pessoas": [
-        {
-            "id": 1,
-            "nome": "Mariana",
-            "paiId": 2,
-            "maeId": 3
-        },
-        {
-            "id": 2,
-            "nome": "Carlos",
-            "paiId": 9,
-            "maeId": 7
-        },
-        {
-            "id": 3,
-            "nome": "Luisa",
-            "paiId": 1,
-            "maeId": 6
-        },
-        {
-            "id": 4,
-            "nome": "Roberto",
-            "paiId": 2,
-            "maeId": 3
-        },
-        {
-            "id": 5,
-            "nome": "Camila",
-            "paiId": 4,
-            "maeId": 5
-        },
-        {
-            "id": 6,
-            "nome": "Ricardo",
-            "paiId": 6,
-            "maeId": 7
-        },
-        {
-            "id": 7,
-            "nome": "Isabel",
-            "paiId": 5,
-            "maeId": 4
-        },
-        {
-            "id": 8,
-            "nome": "Fernanda",
-            "paiId": 7,
-            "maeId": 8
-        },
-        {
-            "id": 9,
-            "nome": "Luiz",
-            "paiId": 8,
-            "maeId": 9
-        },
-        {
-            "id": 10,
-            "nome": "Carla",
-            "paiId": 9,
-            "maeId": 10
-        },
-        {
-            "id": 11,
-            "nome": "Sergio",
-            "paiId": 10,
-            "maeId": 11
-        },
-        {
-            "id": 12,
-            "nome": "Elaine",
-            "paiId": 11,
-            "maeId": 12
-        },
-        {
-            "id": 13,
-            "nome": "Juliana",
-            "paiId": 12,
-            "maeId": 13
-        },
-        {
-            "id": 14,
-            "nome": "Hugo",
-            "paiId": 13,
-            "maeId": 14
-        },
-        {
-            "id": 15,
-            "nome": "Viviane",
-            "paiId": 14,
-            "maeId": 15
-        },
-        {
-            "id": 16,
-            "nome": "Felipe",
-            "paiId": 15,
-            "maeId": 16
-        },
-        {
-            "id": 17,
-            "nome": "Patricia",
-            "paiId": 16,
-            "maeId": 17
-        },
-        {
-            "id": 18,
-            "nome": "Renato",
-            "paiId": 17,
-            "maeId": 18
-        },
-        {
-            "id": 19,
-            "nome": "Aline",
-            "paiId": 18,
-            "maeId": 19
-        },
-        {
-            "id": 20,
-            "nome": "Guilherme",
-            "paiId": 19,
-            "maeId": 20
-        },
-        {
-            "id": 21,
-            "nome": "Maria",
-            "paiId": 20,
-            "maeId": 21
-        },
-        {
-            "id": 22,
-            "nome": "Rodrigo",
-            "paiId": 21,
-            "maeId": 22
-        },
-        {
-            "id": 23,
-            "nome": "Laura",
-            "paiId": 22,
-            "maeId": 23
-        },
-        {
-            "id": 24,
-            "nome": "Paulo",
-            "paiId": 23,
-            "maeId": 24
-        },
-        {
-            "id": 25,
-            "nome": "Simone",
-            "paiId": 24,
-            "maeId": 25
-        },
-        {
-            "id": 26,
-            "nome": "Eduardo",
-            "paiId": 25,
-            "maeId": 26
-        },
-        {
-            "id": 27,
-            "nome": "Ana",
-            "paiId": 26,
-            "maeId": 27
-        },
-        {
-            "id": 28,
-            "nome": "Marcos",
-            "paiId": 27,
-            "maeId": 28
-        },
-        {
-            "id": 29,
-            "nome": "Fernanda",
-            "paiId": 28,
-            "maeId": 29
-        },
-        {
-            "id": 30,
-            "nome": "Gustavo",
-            "paiId": 29,
-            "maeId": 30
-        },
-        {
-            "id": 31,
-            "nome": "André",
-            "paiId": 30,
-            "maeId": 29
-        },
-        {
-            "id": 32,
-            "nome": "Silvia",
-            "paiId": 31,
-            "maeId": 30
-        },
-        {
-            "id": 33,
-            "nome": "Luciano",
-            "paiId": 32,
-            "maeId": 31
-        },
-        {
-            "id": 34,
-            "nome": "Cristina",
-            "paiId": 33,
-            "maeId": 32
-        },
-        {
-            "id": 35,
-            "nome": "Rafael",
-            "paiId": 34,
-            "maeId": 33
-        },
-        {
-            "id": 36,
-            "nome": "Monica",
-            "paiId": 35,
-            "maeId": 34
-        },
-        {
-            "id": 37,
-            "nome": "Leonardo",
-            "paiId": 36,
-            "maeId": 35
-        },
-        {
-            "id": 38,
-            "nome": "Beatriz",
-            "paiId": 37,
-            "maeId": 36
-        },
-        {
-            "id": 39,
-            "nome": "Alexandre",
-            "paiId": 38,
-            "maeId": 37
-        },
-        {
-            "id": 40,
-            "nome": "Natalia",
-            "paiId": 39,
-            "maeId": 38
-        }
-    ]
+  "pessoas": [
+    {
+      "nome": "Mariana",
+      "paiId": "3",
+      "maeId": "4",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Carlos",
+      "paiId": 9,
+      "maeId": 7
+    },
+    {
+      "id": 3,
+      "nome": "Luisa",
+      "paiId": 1,
+      "maeId": 6
+    },
+    {
+      "id": 4,
+      "nome": "Roberto",
+      "paiId": 2,
+      "maeId": 3
+    },
+    {
+      "id": 5,
+      "nome": "Camila",
+      "paiId": 4,
+      "maeId": 5
+    },
+    {
+      "id": 6,
+      "nome": "Ricardo",
+      "paiId": 6,
+      "maeId": 7
+    },
+    {
+      "id": 7,
+      "nome": "Isabel",
+      "paiId": 5,
+      "maeId": 4
+    },
+    {
+      "id": 8,
+      "nome": "Fernanda",
+      "paiId": 7,
+      "maeId": 8
+    },
+    {
+      "id": 9,
+      "nome": "Luiz",
+      "paiId": 8,
+      "maeId": 9
+    },
+    {
+      "id": 10,
+      "nome": "Carla",
+      "paiId": 9,
+      "maeId": 10
+    },
+    {
+      "id": 11,
+      "nome": "Sergio",
+      "paiId": 10,
+      "maeId": 11
+    },
+    {
+      "id": 12,
+      "nome": "Elaine",
+      "paiId": 11,
+      "maeId": 12
+    },
+    {
+      "id": 13,
+      "nome": "Juliana",
+      "paiId": 12,
+      "maeId": 13
+    },
+    {
+      "id": 14,
+      "nome": "Hugo",
+      "paiId": 13,
+      "maeId": 14
+    },
+    {
+      "id": 15,
+      "nome": "Viviane",
+      "paiId": 14,
+      "maeId": 15
+    },
+    {
+      "id": 16,
+      "nome": "Felipe",
+      "paiId": 15,
+      "maeId": 16
+    },
+    {
+      "id": 17,
+      "nome": "Patricia",
+      "paiId": 16,
+      "maeId": 17
+    },
+    {
+      "id": 18,
+      "nome": "Renato",
+      "paiId": 17,
+      "maeId": 18
+    },
+    {
+      "id": 19,
+      "nome": "Aline",
+      "paiId": 18,
+      "maeId": 19
+    },
+    {
+      "id": 20,
+      "nome": "Guilherme",
+      "paiId": 19,
+      "maeId": 20
+    },
+    {
+      "id": 21,
+      "nome": "Maria",
+      "paiId": 20,
+      "maeId": 21
+    },
+    {
+      "id": 23,
+      "nome": "Laura",
+      "paiId": 22,
+      "maeId": 23
+    },
+    {
+      "id": 24,
+      "nome": "Paulo",
+      "paiId": 23,
+      "maeId": 24
+    },
+    {
+      "id": 25,
+      "nome": "Simone",
+      "paiId": 24,
+      "maeId": 25
+    },
+    {
+      "id": 26,
+      "nome": "Eduardo",
+      "paiId": 25,
+      "maeId": 26
+    },
+    {
+      "id": 27,
+      "nome": "Ana",
+      "paiId": 26,
+      "maeId": 27
+    },
+    {
+      "id": 28,
+      "nome": "Marcos",
+      "paiId": 27,
+      "maeId": 28
+    },
+    {
+      "id": 29,
+      "nome": "Fernanda",
+      "paiId": 28,
+      "maeId": 29
+    },
+    {
+      "id": 31,
+      "nome": "André",
+      "paiId": 30,
+      "maeId": 29
+    },
+    {
+      "id": 32,
+      "nome": "Silvia",
+      "paiId": 31,
+      "maeId": 30
+    },
+    {
+      "id": 33,
+      "nome": "Luciano",
+      "paiId": 32,
+      "maeId": 31
+    },
+    {
+      "id": 34,
+      "nome": "Cristina",
+      "paiId": 33,
+      "maeId": 32
+    },
+    {
+      "id": 35,
+      "nome": "Rafael",
+      "paiId": 34,
+      "maeId": 33
+    },
+    {
+      "id": 37,
+      "nome": "Leonardo",
+      "paiId": 36,
+      "maeId": 35
+    },
+    {
+      "id": 38,
+      "nome": "Beatriz",
+      "paiId": 37,
+      "maeId": 36
+    },
+    {
+      "id": 40,
+      "nome": "Natalia",
+      "paiId": 39,
+      "maeId": 38
+    },
+    {
+      "nome": "Maricreusa",
+      "paiId": "",
+      "maeId": "",
+      "id": 41
+    },
+    {
+      "nome": "Jesus",
+      "paiId": "100",
+      "maeId": "",
+      "id": 42
+    },
+    {
+      "nome": "Dennis",
+      "paiId": "",
+      "maeId": "",
+      "id": 43
+    },
+    {
+      "nome": "Binguilo",
+      "paiId": "1",
+      "maeId": "2",
+      "id": 44
+    },
+    {
+      "nome": "Juremita",
+      "paiId": "5",
+      "maeId": "9",
+      "id": 45
+    }
+  ]
 }
