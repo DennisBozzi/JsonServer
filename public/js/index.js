@@ -48,13 +48,7 @@ function paginacao(val) {
 
                     valMax = data.length / 8
 
-
-
-                    for (let i = val >= 1 ? val - 1 : val; i < val + 3 && i < valMax; i++) {
-
-
-                        
-
+                    for (let i = val >= 1 ? val - 1 : val; i < val + 2 && i < valMax; i++) {
 
                         paginacao.innerHTML += '<button class="btn btn-dark" id="paginacao' + i + '" onclick="paginacao(' + (i) + ')">' + (i + 1) + '</button>'
 
